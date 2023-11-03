@@ -1,0 +1,43 @@
+<!-------w------------
+
+    Assignment 4
+    Name: Qiaoran Xue
+    Date: 2023-09-28
+    Description: Search building permits by street name. 
+
+--------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="main.css" />
+		<title>Winnipeg Building Permit Search</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Winnipeg Building Permits</h1>
+				<h2>See what's changed on your street.</h2>
+			</header>
+			<form class="searchArea">
+				<div>
+					<label><h3>Search building permits by street name:</h3></label>
+				</div>
+				<div class="searchBox">
+					<input type="streetName" name="streetName" id="streetName">
+					<button type="button" class="search" id="search">Search</button>
+				</div>
+			</form>
+			<br>
+			<h2 id="output"></h2>
+			<table class="results">
+				<thead id="tableHead"></thead>
+				<tbody id="data"></tbody>
+			</table>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
