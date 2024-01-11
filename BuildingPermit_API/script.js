@@ -1,6 +1,5 @@
 /******w**************
     
-    Assignment 4 Javascript
     Name: Qiaoran Xue
     Date: 2023-09-28
     Description: Search building permits by street name. 
